@@ -122,28 +122,28 @@
 
 /////////////////////////////////
 
-// const daysUntilDeadline = 0;
+const daysUntilDeadline = 0;
 
-// switch (daysUntilDeadline) {
-//     case 0: {
-//         console.log('Сьогодні');
-//         break;
-//     }
+switch (daysUntilDeadline) {
+    case 0: {
+        console.log('Сьогодні');
+        break;
+    }
 
-//     case 1: {
-//         console.log('Завтра');
-//         break;
-//     }
+    case 1: {
+        console.log('Завтра');
+        break;
+    }
 
-//     case 2: {
-//         console.log('Післязавтра');
-//         break;
-//     }
+    case 2: {
+        console.log('Післязавтра');
+        break;
+    }
 
-//     default: {
-//         console.log('Дата в майбутньому');
-//     }
-// }
+    default: {
+        console.log('Дата в майбутньому');
+    }
+}
 
 ////////////////////////////////////////
 
@@ -289,3 +289,50 @@
 // console.log(++i);
 
 // const foo = () => {}
+
+
+    
+    ///////////////29/36////
+    function getShippingCost(country) {
+  let message;
+  // Change code below this line
+  switch (country) {
+    case "China": 
+      price = 100;
+      message = "Shipping to China will cost 100 credits"; 
+      break;
+
+    case "Chile": 
+      price = 250;
+      message = "Shipping to Chile will cost 250 credits";
+       break;
+
+    case "Australia": 
+      price = 170;
+      message = "Shipping to Australia will cost 170 credits";
+       break;
+
+    case "Jamaica": 
+      price = 120;
+      message = "Shipping to Jamaica will cost 120 credits";
+       break;
+       
+      case "Sweden":
+          message = "Sorry, there is no delivery to your country";
+          break;
+      case "Germany":
+          message = "Sorry, there is no delivery to your country";
+  }
+  // Change code above this line
+  return message;
+}
+
+
+
+
+
+function getNameLength(name) {
+  const message = `Name ${Poly} is ${4} characters long`; // Change this line
+
+  return message;
+}
